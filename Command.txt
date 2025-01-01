@@ -1,0 +1,14 @@
+Nexphisher – Advanced Phishing Tool For Linux & Termux
+NexPhisher is an automated Phishing tool made for Termux & Linux .
+
+[+] Installation :
+
+
+apt-get update 
+apt-get upgrade
+apt install git -y
+git clone https://github.com/htr-tech/nexphisher
+cd nexphisher
+chmod +x *
+bash tmux_setup
+bash nexphisher
